@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+
+<body>
+	<form id="add_details" action="http://127.0.0.1:5001/add_transaction" method="POST" name="myForm" >
+		<h3>Enter your details</h3>
+		<label for="names"> Full Names</label>
+		<input name="names">
+
+		<label for="id_number">Id Number</label>
+		<input name="id_number">
+
+		<label for="phone">Phone</label>
+		<input name="phone">
+
+		<label for="quantity">Quantity</label>
+		<input name="quantity">
+
+		<input class="btn" type="submit" name="submit" value="Submit">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+form,
+.thank_you {
+    margin: 20vh 30vw;
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+}
+
+input {
+    padding: .5rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+.btn {
+    display: block;
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 80%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(240, 100%, 25%);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
